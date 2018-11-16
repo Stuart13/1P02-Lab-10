@@ -1,12 +1,12 @@
 var start = new Date();
-var time = start.getTime();
+var time = start.getSeconds();
 
 function stopTime (){
 var dateclick = new Date();
-var newtime = dateclick.getTime();
+var newtime = dateclick.getSeconds();
 
 var timespent = newtime - time;
 
-var myAlert = alert("You've been on the page for " + timespent + "seconds." + time + "//" + newtime);
+var myAlert = alert("You've been on the page for " + timespent + " second(s).");
 
 }
